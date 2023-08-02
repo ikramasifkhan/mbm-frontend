@@ -5,7 +5,7 @@
                 <h3 class="login-head"><i class="bi bi-person me-2"></i>SIGN IN</h3>
                 <div class="mb-3 text-left">
                     <label class="form-label">Email</label>
-                    <input class="form-control" type="email" placeholder="Email" v-model="email" v-validate="'required'">
+                    <input class="form-control" type="email" placeholder="Email" v-model="email">
                     <div class="form-control-feedback" v-if="errors && errors.email">
                         <span v-for="email in errors.email" class="text-danger">
                             {{ email }}

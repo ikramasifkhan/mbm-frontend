@@ -152,7 +152,7 @@ export default {
                             commit('SET_USER_MOBILE', '')
                             commit('SET_USER_PASSWORD', '')
                             commit('SET_USER_PASSWORD_CONFIRMATION', '')
-
+                            commit("errors/SET_VALIDATION_ERRORS", null, {root:true})
                             toast.success("Registration successful")
 
                             return router.push('/')

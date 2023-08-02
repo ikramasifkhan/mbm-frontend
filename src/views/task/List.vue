@@ -4,8 +4,10 @@
             <h1><i class="bi bi-speedometer"></i>Task Page</h1>
         </div>
         <ul class="app-breadcrumb breadcrumb">
-            <li class="breadcrumb-item"><i class="bi bi-house-door fs-6"></i></li>
-            <li class="breadcrumb-item"><a href="#">Task Page</a></li>
+            <li class="breadcrumb-item">
+                <router-link to="/dashboard">Home</router-link>
+            </li>
+            <li class="breadcrumb-item">Task list</li>
         </ul>
     </div>
     <div class="row">
@@ -16,7 +18,7 @@
                         <div class="col-md-6">
                             <div class="tile">
                                 <h4 class=" text-left">
-                                    Responsive Table
+                                    Task Table
                                 </h4>
                             </div>
                         </div>
